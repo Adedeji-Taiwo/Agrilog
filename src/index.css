@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;800;900;1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color-scheme: light;
+  }
+
+  .hero-bg {
+    background-image: linear-gradient(93.08deg, #FFFFFF 5.3%, #FFF2ED 36.63%, #FFFFFF 72.36%, rgba(225, 235, 242, 0) 98.15%);
+  }
+
+  .join-bg {
+    background-image: linear-gradient(to right, #F3723F 0%, #EDA58E 60.42%, #87CBFA 100%);
+  }
+
+  .auth-bg {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.0324) 3.24%, #FAE9E2 35.89%, #FEF6F3 73.12%, rgba(229, 245, 255, 0) 100%);
+    ;
+  }
+
+  /*hide table scroll bar*/
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+
+/*for last dark text on*/ 
+.text-gray {
+    color: #333;
+}
+
+/*set nav button to right*/
+@media only screen and (min-width: 768px) and (max-width:1100px) {
+    .started {
+        margin-right: -4rem;
+    }
+}
+
+
+  /*doughnut increase z-index to make hover float over innertext*/
+#root > div > div.w-full.grid.lg\:grid-cols-5.grid-cols-1.xl\:gap-y-7.lg\:gap-y-\[21px\].xl\:gap-x-4.lg\:gap-x-3.bg-dashboard-bg > main > div > div > div.grid.md\:grid-cols-3.grid-cols-1.place-items-start.xl\:gap-5.lg\:gap-\[15px\].gap-3.w-full > div.md\:col-span-1.col-span-2.flex.flex-col.items-start.justify-start.xl\:gap-9.lg\:gap-7.gap-5.min-w-0.w-full.xl\:py-7.xl\:px-8.lg\:py-\[22px\].lg\:px-6.py-\[14px\].px-4.bg-white.border.border-gray-300.rounded-xl.shadow-xs.ring-1.ring-gray-100.ring-opacity-5 > div > div.relative.flex.justify-center.items-start.w-full.lg\:max-w-\[130px\].max-w-\[150px\].h-auto > canvas,
+#root > div > div.w-full.grid.lg\:grid-cols-5.grid-cols-1.xl\:gap-y-7.lg\:gap-y-\[21px\].xl\:gap-x-4.lg\:gap-x-3.bg-dashboard-bg > main > div > div.w-full.xl\:mt-24.lg\:mt-16.lg\:order-2.order-1 > div > div.w-full.flex.flex-col.items-start.justify-center.xl\:gap-3.gap-2.border-\[0\.5px\].border-\[\#bbb\].rounded-\[5px\].xl\:px-5.xl\:pt-3.xl\:pb-7.lg\:px-\[15px\].lg\:pt-\[9px\].lg\:pb-\[21px\].px-\[10px\].pt-\[6px\].pb-\[14px\] > div > div.relative.flex.justify-center.items-start.w-full.xl\:max-w-\[130px\].lg\:max-w-\[110px\].max-w-\[150px\].h-auto > canvas,
+#root > div > div.w-full.grid.lg\:grid-cols-5.grid-cols-1.xl\:gap-y-7.lg\:gap-y-\[21px\].xl\:gap-x-4.lg\:gap-x-3.bg-dashboard-bg > main > div > div.grid.lg\:grid-cols-3.grid-cols-1.xl\:gap-8.lg\:gap-5.gap-3.w-full > div.flex.flex-col.items-start.xl\:gap-\[34px\].lg\:gap-\[26px\].gap-3.w-full.lg\:col-span-2.col-span-1.lg\:order-1.order-2.bg-blue-transparent.rounded-\[10px\].xl\:pt-\[26px\].lg\:pt-\[19px\].xl\:pb-8.lg\:pb-6.pb-4 > div.flex.md\:flex-row.md\:items-stretch.flex-col.items-start.xl\:gap-\[14px\].lg\:gap-\[10px\].md\:gap-\[7px\].gap-3 > div.basis-1\/2.flex.flex-col.items-start.justify-start.xl\:gap-5.lg\:gap-\[15px\].gap-\[10px\].w-full.xl\:px-\[25px\].xl\:py-\[29px\].lg\:px-\[18px\].lg\:py-\[22px\].px-3.py-\[22px\].min-w-0.overflow-hidden.rounded-\[10px\].border-\[0\.3px\].border-\[\#bbb\].md\:w-auto > div > div.relative.flex.justify-center.items-center.w-full.xl\:max-w-\[185px\].lg\:max-w-\[145px\].max-w-\[110px\].h-auto > canvas 
+#root > div > div.w-full.grid.lg\:grid-cols-5.grid-cols-1.xl\:gap-y-7.lg\:gap-y-\[21px\].xl\:gap-x-4.lg\:gap-x-3.bg-dashboard-bg > main > div > div.grid.lg\:grid-cols-7.grid-cols-1.xl\:gap-x-6.xl\:gap-y-7.lg\:gap-x-4.lg\:gap-y-5.gap-y-4.w-full > div.lg\:col-start-4.lg\:col-end-6.flex.flex-col.xl\:gap-16.lg\:gap-12.gap-5.w-full.border-\[0\.5px\].border-\[\#aaa\].rounded-\[5px\].xl\:pt-6.lg\:pt-\[18px\].pt-3.xl\:px-5.lg\:px-\[15px\].px-\[10px\] > div.flex.flex-col.items-center.justify-center.xl\:gap-6.lg\:gap-5.gap-3.w-full > div.relative.flex.justify-center.items-start.w-full.lg\:max-w-\[130px\].max-w-\[150px\].h-auto > canvas{
+    z-index: 20;
+}
+
+
+/*map size*/
+.leaflet-container {
+    width: 100%;
+    height: 100vh;
+  }
