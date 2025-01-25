@@ -10,7 +10,6 @@ This project was bootstrapped with Vite.
 ---
 
 ## Screenshot
-## Screenshot
 ![Screenshot 1](https://github.com/Adedeji-Taiwo/Agrilog/blob/main/public/screenshot.png)  
 ![Screenshot 2](https://github.com/Adedeji-Taiwo/Agrilog/blob/main/public/screenshot2.png)
 
