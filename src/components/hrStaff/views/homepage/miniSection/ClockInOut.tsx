@@ -84,7 +84,7 @@ const ClockInOut = () => {
   
   const handleClockIn = () => {
     if (!currentLocation) {
-      setMessage('Location not available.');
+      setMessage('You are not within Location.');
       setButtonState('failed');
       return;
     }

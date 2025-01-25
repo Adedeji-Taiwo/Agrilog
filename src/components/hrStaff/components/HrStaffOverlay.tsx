@@ -16,13 +16,13 @@ const Overlay:FC<OverlayProp> = ({open, setOpen, showOnboardingAlert, showTodoAl
 
   return (
     <> 
-        {open && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block lg:hidden z-50`} onClick={() => setOpen(false)}></div>}
-        { showOnboardingAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100]`}></div>}
-        { showTodoAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100]`}></div>}
-        { showRequestOvertimeAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100]`}></div>}
-        { showGoalSetterAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100]`}></div>}
-        { showLeaveRequestAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100]`}></div>}
-        { showNewAccountInfoAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100]`}></div>}
+        {open && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block lg:hidden z-50 overflow-hidden`} onClick={() => setOpen(false)}></div>}
+        { showOnboardingAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100] overflow-hidden`}></div>}
+        { showTodoAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100] overflow-hidden`}></div>}
+        { showRequestOvertimeAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100] overflow-hidden`}></div>}
+        { showGoalSetterAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100] overflow-hidden`}></div>}
+        { showLeaveRequestAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100] overflow-hidden`}></div>}
+        { showNewAccountInfoAlert && <div className={`bg-black opacity-30 fixed inset-0 w-full h-full block z-[100] overflow-hidden`}></div>}
     </>
   )
 }

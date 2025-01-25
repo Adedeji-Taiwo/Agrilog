@@ -69,14 +69,14 @@ const PendingApproval = () => {
                 <span className="lg:font-normal font-light xl:text-sm lg:leading-4 text-xs text-[#3cbd60] xl:pr-3 lg:pr-2 hidden"></span>  
               </p>
               <div className='flex flex-col items-start justify-start xl:gap-8 lg:gap-6 gap-4 w-full xl:pb-2 lg:pb-[6px] pb-1 relative overflow-auto md:whitespace-normal whitespace-nowrap scrollbar-hide'>
-                  <table className='flex items-start justify-start w-full xl:gap-14 lg:gap-11 gap-7'>
-                        <tr className='inline-flex items-start'>
-                          <td className='font-mulish text-[#333] lg:text-sm leading-4 text-xs'>Clock-In Time: <span className='block font-bold text-primary'>{clockInTime}</span></td>
-                        </tr>
-                        <tr className='inline-flex items-start'>
-                          <td className='font-mulish text-[#333] lg:text-sm leading-4 text-xs'>Clock-Out Time: <span className='block font-bold text-[#f3723f]'>{clockOutTime}</span></td>
-                        </tr>
-                    </table>
+                  <div className='flex items-start justify-start w-full xl:gap-14 lg:gap-11 gap-7'>
+                        <p className='inline-flex items-start'>
+                          <span className='font-mulish text-[#333] lg:text-sm leading-4 text-xs'>Clock-In Time: <span className='block font-bold text-primary'>{clockInTime}</span></span>
+                        </p>
+                        <p className='inline-flex items-start'>
+                          <span className='font-mulish text-[#333] lg:text-sm leading-4 text-xs'>Clock-Out Time: <span className='block font-bold text-[#f3723f]'>{clockOutTime}</span></span>
+                        </p>
+                    </div>
               </div>
           </div>
            

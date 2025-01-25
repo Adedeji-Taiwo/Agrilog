@@ -15,7 +15,7 @@ const Register = () => {
    <>
     <AuthContainer>
     <div className='w-full flex flex-col items-center justify-start xl:gap-[61px] xl:px-[153px] lg:gap-[46px] gap-8 lg:px-[115px] xl:py-[126px] lg:py-[50px]'>
-          <h1 className="font-semibold xl:text-[32px] xl:leading-[70px] lg:text-2xl text-xl text-blackish">Create Your <span className='text-primary'>RendaHr</span> Account</h1>
+          <h1 className="font-semibold xl:text-[32px] xl:leading-[70px] lg:text-2xl text-xl text-blackish">Create Your <span className='text-primary'>Agrilog</span> Account</h1>
           <form data-aos="fade-up" data-aos-once="true" data-aos-delay="500" className='w-full flex justify-center flex-col xl:gap-9 lg:gap-8 gap-6'>
               <div className='grid place-items-start md:grid-cols-2 xl:gap-y-9 xl:gap-x-[45px] lg:gap-y-8 lg:gap-x-8 gap-x-6 gap-y-6'>
                 <FormInput 

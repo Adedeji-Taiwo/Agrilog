@@ -18,7 +18,7 @@ const Sidebar: FC<SidebarProps> = ({ open, setOpen }) => {
 const navigate = useNavigate();
 
   return (
-    <aside className={`${open ? "fixed z-[60] h-screen origin-left duration-300 w-4/6 md:w-4/12 scale-x-1 transition lg:pt-7 md:pt-20 pt-16 pl-3" : "ml-[-100%] lg:ml-0 w-0 lg:w-auto lg:relative fixed transform lg:transform-none scale-x-0 lg:col-span-1"} flex flex-col items-center justify-start  xl:gap-3 md:gap-[9px] gap-[6px] xl:p-[18px] lg:p-[14px] md:p-[9px] p-2 xl:ml-[18px] lg:ml-[13.5px] lg:rounded-3xl rounded-xl xl:border-[2.5px] border-[1.9px] border-[#e3f5c8] bg-dashboard-bg`}>
+    <aside className={`${open ? "fixed inset-0 z-[60] h-screen origin-left duration-300 w-4/6 md:w-4/12 scale-x-1 transition lg:pt-7 md:pt-20 pt-16 pl-3" : "ml-[-100%] lg:ml-0 w-0 lg:w-auto lg:relative fixed transform lg:transform-none scale-x-0 lg:col-span-1"} flex flex-col items-center justify-start  xl:gap-3 md:gap-[9px] gap-[6px] xl:p-[18px] lg:p-[14px] md:p-[9px] p-2 xl:ml-[18px] lg:ml-[13.5px] lg:rounded-3xl rounded-xl xl:border-[2.5px] border-[1.9px] border-[#e3f5c8] bg-dashboard-bg overflow-hidden`}>
       {dashboardSidebarRoutes.map((route) => (
         <NavLink
           to={route.path!}
