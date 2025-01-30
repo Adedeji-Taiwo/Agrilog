@@ -18,7 +18,7 @@ const TimeOff = () => {
         </Link>
       </p>
       <div className='flex items-center justify-start xl:gap-2 lg:gap-[6px] gap-1 w-full'>
-        <p className='font-mulish font-medium md:font-semibold lg:text-xs md:text-sm text-xs leading-4 text-left'>You have 2 days Sick Leave left. <span onClick={() => { navigate('/dashboard/user/leave-time-offs'); setShowLeaveRequestAlert(true) }} className="text-primary cursor-pointer">Request</span></p>
+        <p className='font-mulish font-medium md:font-semibold lg:text-xs md:text-sm text-xs leading-4 text-left'>You have 2 days Sick Leave left. <span onClick={() => { navigate('/') }} className="text-primary cursor-pointer">Request</span></p>
       </div>
     </div>
   )

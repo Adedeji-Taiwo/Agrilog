@@ -12,16 +12,28 @@ type UpcomingEventData = {
 const UpcomingEventsData: UpcomingEventData[] = [
 
     {
-        date: "Wed 29",
+        date: "Fri 31",
         name: "Olive",
         celebration: "Planting",
         mail: "Ahmed Yousine"
     },
     {
-        date: "Fri 31",
+        date: "Mon 3",
         name: "Oranges",
         celebration: "Harvest",
         mail: "Tarik Hifba"
+    },
+    {
+        date: "Wed 5",
+        name: "Strawberry",
+        celebration: "Harvest",
+        mail: "Musa Khoussa"
+    },
+    {
+        date: "Fri 7",
+        name: "Olive",
+        celebration: "Planting",
+        mail: "Ahmed Yousine"
     },
 ]
 
